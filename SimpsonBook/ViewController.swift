@@ -69,7 +69,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toDetailVC"{
+        if segue.identifier == "toDetailsVC"{
             let destinationVC = segue.destination as! detailsVC
             destinationVC.selectedSimpson = chosenSimpson
         }
